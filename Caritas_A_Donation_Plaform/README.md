@@ -1,5 +1,3 @@
-# Web-Mart
-
 <!-- Caritas README file -->
 
 <h1>Caritas - A Donation Platform</h1>
