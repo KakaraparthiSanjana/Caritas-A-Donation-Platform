@@ -1,0 +1,40 @@
+.container-fluid.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    position: relative; /* Allows positioning of the tick */
+    border: 2px solid #008000; /* Green border color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.container-fluid.message h5 {
+    border: 2px solid black;
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative; /* Ensures the tick is positioned relative to this element */
+}
+
+/* Green tick styling */
+.container-fluid.message::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    font-size: 100px;
+    color: #008000; /* Green color */
+    size: 100px;
+     /* Adjust the distance above the text */
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .container-fluid.message h5 {
+        font-size: 1.2rem;
+    }
+
+    .container-fluid.message::before {
+        font-size: 1.5rem;
+        top: -15px;
+    }
+}

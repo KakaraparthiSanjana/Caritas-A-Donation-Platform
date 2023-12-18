@@ -1,0 +1,63 @@
+.dl {
+    background: url(https://blog.vancity.com/wp-content/uploads/2016/12/GiveHands-iStock-Blog-1280x620-1280x620.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0);
+}
+
+.form-label {
+    color: rgb(16, 13, 13);
+    font-size: 25px;
+    gap: 8px;
+    font-style: unset;
+}
+
+input {
+    justify-content: space-around;
+    border-color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 1em;
+
+
+}
+
+.formdiv {
+    background-color: rgba(161, 161, 204, 0.24) !important;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+   
+    border-radius: 1em;
+    width: 40%;
+    height: 70%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: none;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.maindiv {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.alignment {
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    align-items: left;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+a{
+    color: red;
+ 
+}

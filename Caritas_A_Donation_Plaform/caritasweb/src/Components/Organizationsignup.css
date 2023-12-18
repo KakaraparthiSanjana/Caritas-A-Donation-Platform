@@ -1,0 +1,67 @@
+.signup-Org {
+    overflow-y: auto;
+    display: flex;
+    height:max-content;
+    
+    color: #fff;
+ 
+   justify-content: flex-end;
+   background-image: url(https://static.wixstatic.com/media/8e53cc_b6e0e6cd57824b91831002b1e9ea5e2d~mv2_d_3604_3189_s_4_2.jpg/v1/fill/w_1920,h_1699,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8e53cc_b6e0e6cd57824b91831002b1e9ea5e2d~mv2_d_3604_3189_s_4_2.jpg);
+  }
+  
+  .container {
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

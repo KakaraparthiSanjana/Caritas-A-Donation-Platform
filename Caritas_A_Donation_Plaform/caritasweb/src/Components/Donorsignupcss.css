@@ -1,0 +1,39 @@
+.ds-signup {
+    justify-content: center;
+    display: flex;
+
+    height: 100vh;
+    flex-direction: column;
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-geometric-gradient-blood-donation-charity-event-poster-background-material-image_138292.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* border-radius: 1000px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.ds-container {
+    border: solid;
+    border-radius: 0.25cm;
+    border-color: rgba(0, 0, 0, 0);
+    color: rgb(27, 25, 25);
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.form-control {
+    border: solid;
+    border-width: 2px;
+
+}
+
+.labelha{
+    font-size: larger;
+    font-weight: bold;
+}
+

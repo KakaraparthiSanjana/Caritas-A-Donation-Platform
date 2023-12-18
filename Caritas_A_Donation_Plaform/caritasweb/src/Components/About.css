@@ -1,0 +1,79 @@
+/* .About {
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    height: 100vh;
+    flex-direction: column;
+    padding: 20%;
+    border: solid rgb(26, 26, 27);
+    border-width: 50px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.head {
+    padding-left: 2%;
+}
+
+.container-about {
+    background-color: rgb(245, 250, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.contactus{
+    font-size:large;
+    color: brown;
+    margin-top: auto;
+} */
+
+
+/* About.css */
+
+.container-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+  }
+  
+  .About {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .head {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Add styles for your content here */
+  
+  .contactus {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .icon {
+    margin: 0 10px;
+    color: #0077B5; /* Twitter blue color */
+  }
+  
+  .icon:hover {
+    color: #E4405F; /* Instagram red color */
+  }
+  
